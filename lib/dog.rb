@@ -84,6 +84,7 @@ class Dog
       temp_dog = dog[0]
       dog = Dog.new(name: temp_dog[1], breed: temp_dog[2])
       dog.id = temp_dog[0]
+      dog
     else
       dog = Dog.new(name: name, breed: breed)
     end
