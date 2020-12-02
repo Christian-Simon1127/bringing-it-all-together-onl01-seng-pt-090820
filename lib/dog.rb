@@ -83,7 +83,7 @@ class Dog
     if !dog.empty?
       temp_dog = dog[0]
       puts temp_dog
-      dog = Dog.new(temp_dog[0], name: temp_dog[1], breed: temp_dog[2])
+      dog = Dog.new(id: temp_dog[0], name: temp_dog[1], breed: temp_dog[2])
     else
       dog = Dog.new(name: name, breed: breed)
     end
